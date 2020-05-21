@@ -1,0 +1,41 @@
+/* 
+  styles for the bulb switch app
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #4f4f4f;
+  color: #fff;
+  max-width: auto;
+}
+
+.box {
+  margin: 150px 150px;
+  text-align: center;
+}
+
+#on {
+  border: none;
+  padding: 20px 20px;
+  background-color: aliceblue;
+  color: orange;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+#off {
+  border: none;
+  padding: 20px 20px;
+  background-color: rgb(16, 103, 180);
+  color: rgb(236, 212, 167);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bolder;
+}
